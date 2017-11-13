@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- navbar that looks the same on all pages, except for active link -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#main-navigation">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a href="index.html.html" class="navbar-brand navbar-left">
+                <span class="text-uppercase">
+                    Massage
+                </span>
+
+
+            </a>
+
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right na" id="main-navigation"> <!-- Remember to set correct active link -->
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html.html">Home</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Treatments <span class="caret"></span>
+                </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="treatments.html">All Treatments</a></li>
+                        <li><a href="massage.html"> Massage</a></li>
+                        <li><a href="knee-treatment.html">Knee Treatment</a></li>
+                    </ul>
+                </li>
+                <li class=""><a href="about.html">About</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div class="container-fluid"><!-- Carousel -->
+    <div class="carousel slide hidden-xs" data-ride="carousel" id="massage-carousel" data-interval="2000">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+
+            <li data-target="#massage-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#massage-carousel" data-slide-to="1" class=""></li>
+            <li data-target="#massage-carousel" data-slide-to="2" class=""></li>
+
+        </ol>
+
+        <div class="carousel-inner">
+
+            <div class="item active">
+                <img src="images/massage.jpg" alt="Massage">
+
+            </div>
+
+            <div class="item">
+                <img src="images/knee.jpg" alt="Knee Treatment">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/hand.jpg" alt="Hand Massage">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+        </div>
+
+        <a href="#massage-carousel" class="left carousel-control" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#massage-carousel" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        <!-- /Controls -->
+
+    </div>
+    <!-- /Carousel --></div>
+
+
+<img src="images/hand.jpg" alt="Hand Massage" class="img-responsive visible-xs">
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 col-xs-12">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolor, eaque exercitationem minus quasi
+                quis sint tempora velit. Aspernatur incidunt iste, odio possimus quam quasi quis ratione soluta sunt
+                tenetur.</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut nesciunt odit sed vitae
+                voluptatibus! A dignissimos dolorem eius esse ipsum iste porro qui tenetur unde, vel! Iste, nobis
+                sint!</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dignissimos ea natus non omnis, quibusdam
+                temporibus veniam? Beatae culpa cumque dolore earum, error, et in, laborum quibusdam rerum sapiente
+                veritatis?</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

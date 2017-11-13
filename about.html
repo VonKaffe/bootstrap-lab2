@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+<!-- navbar that looks the same on all pages, except for active link -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#main-navigation">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a href="index.html.html" class="navbar-brand navbar-left">
+                <span class="text-uppercase">
+                    Massage
+                </span>
+
+
+            </a>
+
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right na" id="main-navigation"> <!-- Remember to set correct active link -->
+            <ul class="nav navbar-nav">
+                <li><a href="index.html.html">Home</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Treatments <span class="caret"></span>
+                </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="treatments.html">All Treatments</a></li>
+                        <li><a href="massage.html">Massage</a></li>
+                        <li><a href="knee-treatment.html">Knee Treatment</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="about.html">About</a></li>
+                <!--<li class="active"><a href="#">004</a></li>-->
+                <!--<li class="active"><a href="#">005</a></li>-->
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<ol class="breadcrumb">
+    <li><a href="index.html"><img src="icons/home.svg" alt="Home icon leading to Home"></a></li>
+    <li class="active">About</li>
+</ol>
+
+<!-- /Breadcrumbs -->
+
+
+<!-- Image and text on three rows -->
+<div class="container-fluid">
+    <div class="row"><img src="images/knee.jpg" alt="Knee Treatment" class="col-md-6 col-xs-12">
+        <p class="col-md-6 col-xs-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam ducimus, ea
+            earum excepturi exercitationem expedita harum iste natus pariatur quae quo quod voluptate! Excepturi ipsa nihil nostrum sapiente velit.</p>
+    </div>
+    <div class="row">
+        <p class="col-md-6 col-xs-12 hidden-xs hidden-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+            accusamus aliquid autem
+            cum dolor dolores ex in iste itaque, maiores modi nam natus nemo non possimus sequi similique sunt tempora!</p>
+        <img src="images/massage.jpg" alt="Back Massage" class="col-md-6 col-xs-12">
+        <p class="col-md-6 col-xs-12 visible-xs visible-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+            accusamus aliquid autem
+            cum dolor dolores ex in iste itaque, maiores modi nam natus nemo non possimus sequi similique sunt tempora!</p>
+    </div>
+    <div class="row"><img src="images/hand.jpg" alt="Hand Massage" class="col-md-6 col-xs-12">
+        <p class="col-md-6 col-xs-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eligendi expedita
+            laudantium nulla recusandae reiciendis sequi soluta! Aliquam asperiores beatae commodi, dolorem facere non officiis quae temporibus voluptate voluptatem, voluptates!</p>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
